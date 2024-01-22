@@ -1,0 +1,47 @@
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    background-color: rgba(198, 198, 198);
+    z-index: 0;
+}
+
+
+
+#btnOne, #btnTwo {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgba(144, 154, 163, 0.712);
+    z-index: 10;
+}
+
+#btnOne {
+    left: 0;
+}
+
+#btnTwo {
+    right: 0;
+}
+
+.slider button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 10px;
+    font-size: large;
+}
+
+.slider p {
+    position: absolute;
+    bottom: 15px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
